@@ -16,6 +16,6 @@ if submit:
         st.success(f"This message is a legit ({prediction[0]})") 
 
     else:
-        st.warning(f"This message is not a {prediction[0]}")
+        st.warning(f"This message is a {prediction[0]}")
 
 st.balloons()
